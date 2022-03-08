@@ -1,0 +1,65 @@
+<!DOCTYPE html><!--Indica ao navegador que é HTML5-->
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        
+        <style> /* estilo de determinado elemento */
+            .button1 {
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+            .button1 {background-color: #4CAF50;} /* verde */
+            
+            </style>
+        <title> <!--Tag  titulo -->
+            Exemplo 01  
+        </title>
+    </head>
+    <body >
+        <script type="text/javascript">
+        var clicks = 0;
+
+        function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;};
+        </script>
+
+        <h1>H1 tag de titulo</h1>
+        <strong>Todas as segundas no laboratorio 502 <strong><br>Prof.Cristine<!--Aula-->
+        
+        <p >Primeira Aula de <mark>Aplicaçãoção WEB</mark><br>
+            Aulas de HTML e CSS Basico</p><!--Tag Mark de marcador de texto (Teg de linha )-->
+            <p><i>Italico</i></p>
+            <p><em>Sublinhado</em></p>
+            <h2>Listas</h2><!--Tags h são Tags de bloco)-->
+            <h3>Listas Ordenadas</h3>
+            <ol><!--indica a lista ordenada)-->
+                <li>primeiro item da lista</li>
+                <li>segundo item da lista</li>
+                <li>terceiro item da lista</li>
+                <li>quarto item da lista</li>
+            </ol>
+            <h3>listas não ordenadas</h3>
+            <ul><!--indica a lista não ordenada)-->
+                <li>primeiro item da lista</li>
+                <li>segundo item da lista</li>
+                <li>terceiro item da lista</li>
+                <li>quarto item da lista</li>
+                
+            </ul>
+
+        <img src="macaco.jpg" alt="Trulli" width="500" height="333"><!--inserindo imagens-->
+        <button class="button1"onClick="onClick()">Botao</button>
+        <p>Clicks no Botao: <a id="clicks">0</a></p>
+
+    </body>
+
+</html>
