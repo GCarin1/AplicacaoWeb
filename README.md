@@ -1,3 +1,3 @@
 # AplicacaoWeb :computer:
-	:heavy_check_mark: Aula 1
-	:heavy_check_mark: Aula 2 
+:heavy_check_mark: aula 1
+:heavy_check_mark: aula 2
