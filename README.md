@@ -1,2 +1,3 @@
 # AplicacaoWeb :computer:
-	Aulas de aplicação web, exercicios e exemplos de sala 
+	:heavy_check_mark: Aula 1
+	:heavy_check_mark: Aula 2 
