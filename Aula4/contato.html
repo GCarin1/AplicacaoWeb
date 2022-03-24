@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial - Exemplo 01</title>
+</head>
+<body>
+    <section><!--tag semantica - agrupa o conteúdo do site-->
+        <nav><!--tag semântica - área de navegação-->
+            <ul><!--lista não ordenada-->
+                <li><!--item da lista-->
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="ultrassom.html">Ultrassom</a>
+                </li>
+                <li>
+                    <a href="gravacao.html">Gravação de exames</a>
+                </li>
+                <li>
+                    <a href="machine.html">Machine Learning</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+          <!--formulário-->
+          <form name="exemplo" method="get" action="">
+              <fieldset><!--html5 - conjunto de campos-->
+                <legend>Dados de acesso</legend>
+                <label>Nome: </label>
+                <input type="text" id="nome" name="nome" required>
+               <br> <label>e-mail:</label>
+                <input type="email" id="email" name="email" required>
+              </fieldset>
+              <fieldset>
+                  <legend>Dados adicionais</legend>
+                  <label>Estado civil</label>
+                  <br><input type="radio" id="estado" name="estado">
+                  <label>Solteiro</label>
+                  <br><input type="radio" id="estado1" name="estado">
+                  <label>Casado</label>
+                  <br><input type="radio" id="estado2" name="estado">
+                  <label>Viúvo</label>
+                  <br><br><label>Esportes favoritos</label>
+                  <br><input type="checkbox" id="esporte" name="esporte">
+                  <label>Futebol</label>
+                  <br><input type="checkbox" id="esporte1" name="esporte1">
+                  <label>Volei</label>
+                  <br><input type="checkbox" id="esporte2" name="esporte2">
+                  <label>Basquete</label>
+                  <br><br><label>Estado</label>
+                  <select id="regiao" name="regiao">
+                      <option id="SP" name="SP">SP</option>
+                      <option id="RJ" name="RJ">RJ</option>
+                      <option id="MG" name="MG">MG</option>
+                      <option id="SC" name="SC">SC</option>
+                  </select>                  
+              </fieldset>
+              <br><label>Comentários</label>
+              <br><textarea id="comentario" name="comentario" cols="30" rows="10" placeholder="Digite aqui o seu comentário"></textarea>
+             <!-- <input type="submit" value="Enviar">-->
+             <br><button type="submit">Enviar</button>
+          </form>
+
+            <footer><!--rodapé da página-->
+                Cristiane Camilo Hernandez - 2022 
+            </footer>
+
+        </section>
+    </section>
+    
+</body>
+</html>
