@@ -108,3 +108,25 @@ footer{
     background-color: rgb(200, 209, 212);
 }
 
+/*Classe genericas */
+.borda{
+    margin: 30px;
+    border-radius: auto;
+
+
+}
+.figure{
+    width: 150px;
+    height: 150px;
+
+}
+/* Aplicando CSS em mais de uma tag
+uma class é uma junção de formatações onde voce esoclhe onde adicionar*/
+footer,hgroup{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
