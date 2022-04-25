@@ -1,0 +1,132 @@
+img{
+    width: 100%;
+}
+
+body{
+    background-color: #010427;
+}
+
+.imgheader{
+    height: 200px;
+    box-shadow: 5px 5px 5px #1976d2;
+}
+
+.conteiner{
+    width: 100%;
+    background-color: #0d47a1;
+}
+
+.navigator-content{ 
+   display: block;
+   list-style-type: none;
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.navigator-content li{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 22%;
+    margin-left: 3%;
+}
+
+.navigator-content li a{
+    color: white;
+    text-decoration: none; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navigator-content li:hover{
+    transition: background .1s;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: rgba(211, 208, 203, 0.308);
+    box-shadow: 5px 5px 5px black;
+}
+
+.boasvindas{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10%;
+    background-color: white;
+}
+
+.audio-content{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 22%;
+    background-color: rgb(200, 209, 212);
+}
+
+.video-content{
+    text-align: center;
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: rgb(200, 209, 212);
+}
+
+.form-content{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: rgb(200, 209, 212);
+}
+
+button{
+    color: white;
+    background-color: #0d47a1;
+    padding: 1% 6%;
+    margin: 2%;
+    box-decoration-break: clone;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: ease-in;
+    background-color: black;
+}
+
+#info, #info2, #info3{
+    cursor: pointer;
+}
+
+audio{
+    float: right;
+    margin-top: 10%;
+    width: 25%;
+}
+
+footer{
+    width: 100%;
+    margin-top: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: rgb(200, 209, 212);
+}
+
+/*Classe genericas */
+.borda{
+    margin: 30px;
+    border-radius: auto;
+
+
+}
+.figure{
+    width: 150px;
+    height: 150px;
+
+}
+/* Aplicando CSS em mais de uma tag
+uma class é uma junção de formatações onde voce esoclhe onde adicionar*/
+footer,hgroup{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+

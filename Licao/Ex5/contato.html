@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <img src="img/bigdata.jpg" class="imgheader" alt="Big Data">
+    </header>
+    <nav class="conteiner">
+        <ul class="navigator-content">
+            <li><a href="index.html" target="_blank"> Home</a></li>
+            <li><a href="detalhes.html" target="_blank">Detalhes</a></li>
+            <li><a href="video.html" target="_blank">Video</a></li>
+            <li><a href="contato.html" target="_blank">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section class="form-content">
+        <form action="" method="get" name="exemplo">
+            <fieldset>
+                <legend>Dados de Acesso</legend>
+                <label>Nome: </label>
+                <input type="text" id="nome" name="nome" required>
+                <br> <label>e-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados adicionais</legend>
+                <label>Estado civil</label>
+                <br><input type="radio" id="estado" name="estado">
+                <label>Solteiro</label>
+                <br><input type="radio" id="estado1" name="estado">
+                <label>Casado</label>
+                <br><input type="radio" id="estado2" name="estado">
+                <label>Viúvo</label>
+                <br><br><label>Motivos do Contato</label>
+                <br><input type="checkbox" id="info" name="informacao">
+                <label>Mais Big Data</label>
+                <br><input type="checkbox" id="info2" name="informacao1">
+                <label>Informatica com Big Data</label>
+                <br><input type="checkbox" id="info3" name="informacao2">
+                <label>Outros</label>
+                <br><br><label>Estado</label>
+                <select id="regiao" name="regiao">
+                    <option id="SP" name="SP">SP</option>
+                    <option id="RJ" name="RJ">RJ</option>
+                    <option id="MG" name="MG">MG</option>
+                    <option id="SC" name="SC">SC</option>
+                </select>                  
+            </fieldset>
+            <br><label>Comentários</label>
+            <br><textarea id="comentario" name="comentario" cols="30" rows="10" placeholder="Digite aqui o seu comentário"></textarea>
+           <!-- <input type="submit" value="Enviar">-->
+           <br><button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Guilherme Carini RGM: 20224435</p>
+        <p>Obrigado po usar nossos sites</p>
+        <p>Nosso Local de Trabalho</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.924130951493!2d-46.45447788554477!3d-23.49924206518518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce616eb6243fcb%3A0xf58f03b4a1ebef94!2sUniversidade%20Cruzeiro%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1649091531454!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>
