@@ -5,3 +5,6 @@
 :heavy_check_mark: aula 4
 :heavy_check_mark: aula 5
 :heavy_check_mark: aula 6
+:heavy_check_mark: aula 7
+:heavy_check_mark: aula 8
+:heavy_check_mark: aula 9
